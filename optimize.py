@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from html.parser import HTMLParser
 
 def optimize(runs=1):
-
+# commint testing commit/push
     now = datetime.now()
     dt_string = now.strftime("%d-%m-%Y")
 
