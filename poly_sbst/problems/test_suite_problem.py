@@ -52,6 +52,7 @@ class TestSuiteProblem(AbstractProblem):
             **kwargs: Additional keyword arguments.
         """
         tests = x[0]
+        
         self.executor._full_coverage = [] # reset the coverage evaluation
         self.executor._coverage = set()
 
