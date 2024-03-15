@@ -33,8 +33,8 @@ def optimize(runs=5):
     for run in range(runs):
 
         seed = get_random_seed()
-        pop_size = 40
-        num_gen = 7
+        pop_size = 20
+        num_gen = 5
 
 
         # generator = TestSuiteGenerator() 
