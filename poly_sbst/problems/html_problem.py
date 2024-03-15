@@ -31,8 +31,8 @@ class HTMLTestSuiteProblem(AbstractProblem):
             
             
         fitness = max(eval_metrics)
-        with open('rndhtml.txt', 'a') as f:
-        # with open('tnrnmthtml.txt', 'a') as f:
+        with open('plt/rndhtml.txt', 'a') as f:
+        # with open('plt/tnrnmthtml.txt', 'a') as f:
             f.write(str(fitness) + ' ')
 
         self.execution_data[self.n_evals] = {"input": test, "output": fitness, "execution_time": execution_time}

@@ -36,8 +36,8 @@ class UrlTestSuiteProblem(AbstractProblem):
         # print(n_t)
         # fitness = n_l/n_t
         fitness = max(eval_metrics)
-        # with open('rnd.txt', 'a') as f:
-        with open('tnrnmt.txt', 'a') as f:
+        # with open('plt/rnd.txt', 'a') as f:
+        with open('plt/tnrnmt.txt', 'a') as f:
             f.write(str(fitness) + ' ')
 
         self.execution_data[self.n_evals] = {"input": test, "output": fitness, "execution_time": execution_time}
